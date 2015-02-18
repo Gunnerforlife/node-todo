@@ -43,8 +43,8 @@
     });
 
     //create a todo and send back all the todos after it
-    app.post('api/todos',function(req,res){
-
+    app.post('/api/todos',function(req,res){
+        console.log('posting on apis');
         Todo.create({
             text:req.body.text,
             done:false
