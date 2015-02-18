@@ -22,7 +22,7 @@
 
     // define model ===============
     var Todo = mongoose.model('Todo',{
-        text:string
+        text:String
     });
 
     //routes ===================
